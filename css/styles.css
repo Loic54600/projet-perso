@@ -186,7 +186,11 @@ h3,
   }
 }
 
-
+.resume-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 .nav-fill>.nav-link,
 .nav-fill .nav-item {
@@ -1921,6 +1925,8 @@ h3,
 
 .mb-5 {
   margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
 }
 .font-monospace {
   font-family: var(--bs-font-monospace);
