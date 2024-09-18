@@ -137,6 +137,10 @@ h3,
   }
 }
 
+.text {
+  text-decoration: underline;
+}
+
 .dropup,
 .dropend,
 .dropdown,
